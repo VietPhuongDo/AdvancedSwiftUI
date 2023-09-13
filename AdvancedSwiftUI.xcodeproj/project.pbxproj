@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		D4939E832AAF008800DB85C4 /* AdvancedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4939E822AAF008800DB85C4 /* AdvancedSwiftUIApp.swift */; };
-		D4939E852AAF008800DB85C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4939E842AAF008800DB85C4 /* ContentView.swift */; };
 		D4939E872AAF008C00DB85C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4939E862AAF008C00DB85C4 /* Assets.xcassets */; };
 		D4939E8A2AAF008C00DB85C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4939E892AAF008C00DB85C4 /* Preview Assets.xcassets */; };
+		D4939E912AAF010D00DB85C4 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4939E902AAF010D00DB85C4 /* ViewModifierBootcamp.swift */; };
+		D4939E932AAF11F000DB85C4 /* CustomButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4939E922AAF11F000DB85C4 /* CustomButtonStyleBootcamp.swift */; };
+		D4939E962AAF142700DB85C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4939E952AAF142600DB85C4 /* UIKit.framework */; };
+		D4939E982AAF142D00DB85C4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4939E972AAF142C00DB85C4 /* SwiftUI.framework */; };
+		D4C26CF02AB040B3002084AC /* CustomTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C26CEF2AB040B3002084AC /* CustomTransitionBootcamp.swift */; };
+		D4C26CF22AB15948002084AC /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C26CF12AB15948002084AC /* MatchedGeometryEffectBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4939E7F2AAF008800DB85C4 /* AdvancedSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4939E822AAF008800DB85C4 /* AdvancedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSwiftUIApp.swift; sourceTree = "<group>"; };
-		D4939E842AAF008800DB85C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4939E862AAF008C00DB85C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4939E892AAF008C00DB85C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4939E902AAF010D00DB85C4 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		D4939E922AAF11F000DB85C4 /* CustomButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		D4939E952AAF142600DB85C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4939E972AAF142C00DB85C4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D4C26CEF2AB040B3002084AC /* CustomTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionBootcamp.swift; sourceTree = "<group>"; };
+		D4C26CF12AB15948002084AC /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4939E982AAF142D00DB85C4 /* SwiftUI.framework in Frameworks */,
+				D4939E962AAF142700DB85C4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +49,7 @@
 			children = (
 				D4939E812AAF008800DB85C4 /* AdvancedSwiftUI */,
 				D4939E802AAF008800DB85C4 /* Products */,
+				D4939E942AAF142500DB85C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				D4939E822AAF008800DB85C4 /* AdvancedSwiftUIApp.swift */,
-				D4939E842AAF008800DB85C4 /* ContentView.swift */,
+				D4939E902AAF010D00DB85C4 /* ViewModifierBootcamp.swift */,
+				D4939E922AAF11F000DB85C4 /* CustomButtonStyleBootcamp.swift */,
+				D4C26CEF2AB040B3002084AC /* CustomTransitionBootcamp.swift */,
+				D4C26CF12AB15948002084AC /* MatchedGeometryEffectBootcamp.swift */,
 				D4939E862AAF008C00DB85C4 /* Assets.xcassets */,
 				D4939E882AAF008C00DB85C4 /* Preview Content */,
 			);
@@ -65,6 +81,15 @@
 				D4939E892AAF008C00DB85C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4939E942AAF142500DB85C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4939E972AAF142C00DB85C4 /* SwiftUI.framework */,
+				D4939E952AAF142600DB85C4 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4939E852AAF008800DB85C4 /* ContentView.swift in Sources */,
+				D4C26CF02AB040B3002084AC /* CustomTransitionBootcamp.swift in Sources */,
+				D4939E932AAF11F000DB85C4 /* CustomButtonStyleBootcamp.swift in Sources */,
+				D4939E912AAF010D00DB85C4 /* ViewModifierBootcamp.swift in Sources */,
 				D4939E832AAF008800DB85C4 /* AdvancedSwiftUIApp.swift in Sources */,
+				D4C26CF22AB15948002084AC /* MatchedGeometryEffectBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
